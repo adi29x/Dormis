@@ -1,0 +1,9 @@
+{
+  "name": "hostel-booking",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "npm --prefix frontend install",
+    "build": "npm --prefix frontend run build && rm -rf public && cp -r frontend/dist public"
+  }
+}
